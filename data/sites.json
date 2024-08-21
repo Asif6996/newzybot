@@ -1,0 +1,128 @@
+[
+	{
+		"id": 1000,
+		"name": "The Daily Star",
+		"section": "Bangladesh",
+		"ischeerio": true,
+		"site": "https://www.thedailystar.net",
+		"url": "https://www.thedailystar.net/news/bangladesh",
+		"selector": ".card-content a"
+	},
+	{
+		"id": 1001,
+		"name": "The Daily Star",
+		"section": "World",
+		"ischeerio": true,
+		"site": "https://www.thedailystar.net",
+		"url": "https://www.thedailystar.net/news/world",
+		"selector": ".card-content a"
+	},
+	{
+		"id": 1002,
+		"name": "The Daily Star",
+		"section": "Investigative Stories",
+		"ischeerio": true,
+		"site": "https://www.thedailystar.net",
+		"url": "https://www.thedailystar.net/news/investigative-stories",
+		"selector": ".card-content a"
+	},
+	{
+		"id": 1003,
+		"name": "The Daily Star",
+		"section": "Asia",
+		"ischeerio": true,
+		"site": "https://www.thedailystar.net",
+		"url": "https://www.thedailystar.net/news/asia",
+		"selector": ".card-content a"
+	},
+	{
+		"id": 1004,
+		"name": "Netra News",
+		"section": "Bangladesh",
+		"ischeerio": true,
+		"site": "https://netra.news",
+		"url": "https://netra.news/",
+		"selector": ".post-card-content-link"
+	},
+	{
+		"id": 1005,
+		"name": "CGS Bangladesh",
+		"section": "First Published",
+		"ischeerio": true,
+		"site": "https://cgs-bd.com",
+		"url": "https://cgs-bd.com/articles/1875/First-Published",
+		"selector": ".blog-image a"
+	},
+	{
+		"id": 1006,
+		"name": "CGS Bangladesh",
+		"section": "Republished",
+		"ischeerio": true,
+		"site": "https://cgs-bd.com",
+		"url": "https://cgs-bd.com/articles/13/Republished",
+		"selector": ".blog-image a"
+	},
+	{
+		"id": 1007,
+		"name": "The Swaddle",
+		"section": "Power",
+		"ischeerio": true,
+		"site": "https://www.theswaddle.com",
+		"url": "https://www.theswaddle.com/category/power",
+		"selector": ".article-tile a"
+	},
+	{
+		"id": 1008,
+		"name": "The Swaddle",
+		"section": "Bodies",
+		"ischeerio": true,
+		"site": "https://www.theswaddle.com",
+		"url": "https://www.theswaddle.com/category/bodies",
+		"selector": ".article-tile a"
+	},
+	{
+		"id": 1009,
+		"name": "The Swaddle",
+		"section": "Future",
+		"ischeerio": true,
+		"site": "https://www.theswaddle.com",
+		"url": "https://www.theswaddle.com/category/future",
+		"selector": ".article-tile a"
+	},
+	{
+		"id": 1010,
+		"name": "The Swaddle",
+		"section": "Society",
+		"ischeerio": true,
+		"site": "https://www.theswaddle.com",
+		"url": "https://www.theswaddle.com/category/society",
+		"selector": ".article-tile a"
+	},
+	{
+		"id": 1011,
+		"name": "The Swaddle",
+		"section": "Podcast Series",
+		"ischeerio": true,
+		"site": "https://www.theswaddle.com",
+		"url": "https://www.theswaddle.com/podcast-series",
+		"selector": "a.whitespace-normal"
+	},
+	{
+		"id": 1012,
+		"name": "The Swaddle",
+		"section": "Perspective",
+		"ischeerio": true,
+		"site": "https://www.theswaddle.com",
+		"url": "https://www.theswaddle.com/in-perspective",
+		"selector": ".slider .slide a"
+	},
+	{
+		"id": 1013,
+		"name": "The Daily Star",
+		"section": "Satire",
+		"ischeerio": true,
+		"site": "https://www.thedailystar.net",
+		"url": "https://www.thedailystar.net/satireday",
+		"selector": ".card-content a"
+	}
+]
