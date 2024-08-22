@@ -76,33 +76,38 @@ async function processCommand(msg) {
 	const chatId = msg.chat.id;
 
 	try {
-		if (text.startsWith("/help")) {
-			await bot.sendMessage(chatId, helpMessage);
-		} else if (text.startsWith("/update_")) {
-			const id = text.replace("/update_", "");
-			const site = await site_list.getElementById(Number(id));
-			if (site) {
-				await checkForUpdates(site, chatId);
+		if (text.startsWith("/")) {
+			if (text.startsWith("/help")) {
+				await bot.sendMessage(chatId, helpMessage);
+			} else if (text.startsWith("/update_")) {
+				const id = text.replace("/update_", "");
+				const site = await site_list.getElementById(Number(id));
+				if (site) {
+					await checkForUpdates(site, chatId);
+				} else {
+					await bot.sendMessage(
+						chatId,
+						`Site with ID ${id} not found.`
+					);
+				}
+			} else if (text.startsWith("/remove_")) {
+				await handleMultipleIds(text, exclude, chatId);
+			} else if (text.startsWith("/add_")) {
+				await handleMultipleIds(text, include, chatId);
+			} else if (text === "/listdb") {
+				await listAllSites(chatId);
+			} else if (text === "/mylist") {
+				await myList(chatId);
+			} else if (text === "/get_stat") {
+				await sendFile("./data/sites.json");
+				await sendFile("./data/sent_links.json");
+				await sendFile("./data/subscribers.json");
 			} else {
-				await bot.sendMessage(chatId, `Site with ID ${id} not found.`);
+				await bot.sendMessage(
+					chatId,
+					"Unknown command. Type /help for a list of commands."
+				);
 			}
-		} else if (text.startsWith("/remove_")) {
-			await handleMultipleIds(text, exclude, chatId);
-		} else if (text.startsWith("/add_")) {
-			await handleMultipleIds(text, include, chatId);
-		} else if (text === "/listdb") {
-			await listAllSites(chatId);
-		} else if (text === "/mylist") {
-			await myList(chatId);
-		} else if (text === "/get_stat") {
-			await sendFile("./data/sites.json");
-			await sendFile("./data/sent_links.json");
-			await sendFile("./data/subscribers.json");
-		} else {
-			await bot.sendMessage(
-				chatId,
-				"Unknown command. Type /help for a list of commands."
-			);
 		}
 	} catch (error) {
 		console.error("Error processing command:", error);
