@@ -160,14 +160,15 @@
 	},
 	{
 		"id": 1015,
-		"name": "টাটকা eআরকি",
+		"name": "eআরকি",
 		"section": "",
 		"type": "StaticWeb",
 		"site": "https://www.earki.co/",
 		"url": "https://www.earki.co/",
 		"selector": [
 			"div.group_criteria_latest h2.title_holder a",
-			"div.group_criteria_latest h2.title_holder span.title"
+			"div.group_criteria_latest h2.title_holder span.title",
+			,"div.group_criteria_latest a.page_ribbon"
 		]
 	}
 	
