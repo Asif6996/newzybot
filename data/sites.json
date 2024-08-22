@@ -168,7 +168,7 @@
 		"selector": [
 			"div.group_criteria_latest h2.title_holder a",
 			"div.group_criteria_latest h2.title_holder span.title",
-			,"div.group_criteria_latest a.page_ribbon"
+			"div.group_criteria_latest a.page_ribbon"
 		]
 	}
 	
