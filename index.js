@@ -3,14 +3,15 @@ import { handleMessage } from "./src/commands.js";
 import { checkForUpdatesAll } from "./src/services.js";
 import JSONFileHandler from "./src/json-handler.js";
 
-const bot = new TelegramBot("7204948449:AAFbSFgZdCYx54vZ_cPUuhBkxsO8BX8A5dc", {
-	polling: true,
-});
+const TOKEN = "7470726583:AAGdlBnuQ1YVoIZdP-6PTcdlE8kpT7cV-RU";
+const POLLING_INTERVAL = 20000;
+
+const bot = new TelegramBot(TOKEN, { polling: true });
 const subscribers = new JSONFileHandler("./data/subscribers.json");
 
-bot.on("message", (msg) => handleMessage(msg, bot, subscribers));
-bot.on("channel_post", (msg) => handleMessage(msg, bot, subscribers));
+bot.on("message", (msg) => handleMessage(msg, subscribers));
+bot.on("channel_post", (msg) => handleMessage(msg, subscribers));
 
-setInterval(() => {
-	checkForUpdatesAll(bot);
-}, 15000);
+setInterval(checkForUpdatesAll, POLLING_INTERVAL);
+
+export { bot };
