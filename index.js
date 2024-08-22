@@ -3,7 +3,7 @@ import { handleMessage } from "./src/commands.js";
 import { checkForUpdatesAll } from "./src/services.js";
 import JSONFileHandler from "./src/json-handler.js";
 
-const TOKEN = "7470726583:AAGdlBnuQ1YVoIZdP-6PTcdlE8kpT7cV-RU";
+const TOKEN = "7204948449:AAFbSFgZdCYx54vZ_cPUuhBkxsO8BX8A5dc";
 const POLLING_INTERVAL = 20000;
 
 const bot = new TelegramBot(TOKEN, { polling: true });
