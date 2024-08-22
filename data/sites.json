@@ -157,5 +157,17 @@
 		"site": "www.prothomalo.com",
 		"url": "https://www.prothomalo.com/api/v1/collections/opinion-all/?limit=1&fields=headline%2Csubheadline%2Curl",
 		"selector": [["items", 0, "story"], "headline", "subheadline", "url"]
+	},{
+		"id": 1015,
+		"name": "টাটকা eআরকি",
+		"section": "",
+		"type": "StatickWeb",
+		"site": "https://www.earki.co/",
+		"url": "https://www.earki.co/",
+		"selector": [
+			"div.group_criteria_latest h2.title_holder a",
+			"div.group_criteria_latest h2.title_holder span.title"
+		]
 	}
+	
 ]
