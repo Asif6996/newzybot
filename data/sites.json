@@ -170,6 +170,18 @@
 			"div.group_criteria_latest h2.title_holder span.title",
 			"div.group_criteria_latest a.page_ribbon"
 		]
+	},
+	{
+		"id": 1016,
+		"name": "The Business Standard",
+		"section": "Archive",
+		"type": "StaticWeb",
+		"site": "https://www.tbsnews.net/",
+		"url": "https://www.tbsnews.net/archive/",
+		"selector": [
+			"div.card-section h4.card-title a",
+			"div.card-section h4.card-title a",
+			"div.card-section div.date a"
+		]
 	}
-	
 ]
