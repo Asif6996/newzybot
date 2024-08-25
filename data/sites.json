@@ -309,7 +309,7 @@
 	{
 		"id": 1014,
 		"name": "Prothom Alo",
-		"section": "Onnoalo",
+		"section": "Onno Alo",
 		"type": "api",
 		"site": "www.prothomalo.com",
 		"url": "https://www.prothomalo.com/api/v1/collections/onnoalo/?limit=1&fields=headline%2Csubheadline%2Curl",
