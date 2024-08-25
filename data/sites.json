@@ -173,16 +173,12 @@
 	},
 	{
 		"id": 1016,
-		"name": "The Business Standard",
-		"section": "Archive",
+		"name": "Sachalayatan",
+		"section": "",
 		"type": "StaticWeb",
-		"site": "https://www.tbsnews.net/",
-		"url": "https://www.tbsnews.net/archive/",
-		"selector": [
-			"div.card-section h4.card-title a",
-			"div.card-section h4.card-title a",
-			"div.card-section div.date a"
-		]
+		"site": "https://www.sachalayatan.com/",
+		"url": "https://www.sachalayatan.com/",
+		"selector": ["div#node-preview a", "div#node-preview a"]
 	},
 	{
 		"id": 1017,
@@ -246,5 +242,23 @@
 		"site": "https://www.thedailystar.net",
 		"url": "https://www.thedailystar.net/weekend-read",
 		"selector": ["h3.title a", "h3.title a"]
+	},
+	{
+		"id": 1024,
+		"name": "The Business Standard",
+		"section": "Thoughts",
+		"type": "StaticWeb",
+		"site": "https://www.tbsnews.net/",
+		"url": "https://www.tbsnews.net/thoughts/",
+		"selector": ["h2.card-title a", "h2.card-title a"]
+	},
+	{
+		"id": 1025,
+		"name": "The Business Standard",
+		"section": "Thoughts",
+		"type": "StaticWeb",
+		"site": "https://www.tbsnews.net/",
+		"url": "https://www.tbsnews.net/features/panorama/",
+		"selector": ["h2.card-title a", "h2.card-title a"]
 	}
 ]
