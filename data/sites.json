@@ -260,5 +260,14 @@
 		"site": "https://www.tbsnews.net/",
 		"url": "https://www.tbsnews.net/features/panorama/",
 		"selector": ["h2.card-title a", "h2.card-title a"]
+	},
+	{
+		"id": 1026,
+		"name": "The Business Standard Bangla",
+		"section": "ইজেল",
+		"type": "StaticWeb",
+		"site": "https://www.tbsnews.net/",
+		"url": "https://www.tbsnews.net/bangla/%E0%A6%87%E0%A6%9C%E0%A7%87%E0%A6%B2",
+		"selector": ["h2.section-title a", "h2.section-title a"]
 	}
 ]
