@@ -269,5 +269,50 @@
 		"site": "https://www.tbsnews.net/",
 		"url": "https://www.tbsnews.net/bangla/%E0%A6%87%E0%A6%9C%E0%A7%87%E0%A6%B2",
 		"selector": ["h2.section-title a", "h2.section-title a"]
+	},
+	{
+		"id": 1027,
+		"name": "Kishor Alo",
+		"section": "",
+		"type": "StaticWeb",
+		"site": "https://www.kishoralo.com/",
+		"url": "https://www.kishoralo.com/",
+		"selector": ["a.title-link", "a.title-link"]
+	},
+	{
+		"id": 1028,
+		"name": "Bigganchinta",
+		"section": "",
+		"type": "StaticWeb",
+		"site": "https://www.bigganchinta.com/",
+		"url": "https://www.bigganchinta.com/",
+		"selector": ["a.title-link", "a.title-link"]
+	},
+	{
+		"id": 1029,
+		"name": "Bondhushava",
+		"section": "",
+		"type": "StaticWeb",
+		"site": "https://www.bondhushava.com/",
+		"url": "https://www.bondhushava.com/",
+		"selector": ["a.title-link", "a.title-link"]
+	},
+	{
+		"id": 1029,
+		"name": "Nagorik Prothomalo",
+		"section": "",
+		"type": "StaticWeb",
+		"site": "https://nagorik.prothomalo.com/",
+		"url": "https://nagorik.prothomalo.com/",
+		"selector": ["a.title-link", "a.title-link"]
+	},
+	{
+		"id": 1014,
+		"name": "Prothom Alo",
+		"section": "Opinion",
+		"type": "api",
+		"site": "www.prothomalo.com",
+		"url": "https://www.prothomalo.com/api/v1/collections/onnoalo/?limit=1&fields=headline%2Csubheadline%2Curl",
+		"selector": [["items", 0, "story"], "headline", "subheadline", "url"]
 	}
 ]
