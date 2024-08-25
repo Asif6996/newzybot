@@ -191,7 +191,7 @@
 		"type": "StaticWeb",
 		"site": "https://www.thedailystar.net",
 		"url": "https://www.thedailystar.net/culture",
-		"selector": [".title a", ".title a"]
+		"selector": ["h2.title a", "h2.title a"]
 	},
 	{
 		"id": 1018,
