@@ -255,7 +255,7 @@
 	{
 		"id": 1025,
 		"name": "The Business Standard",
-		"section": "Thoughts",
+		"section": "Panorama",
 		"type": "StaticWeb",
 		"site": "https://www.tbsnews.net/",
 		"url": "https://www.tbsnews.net/features/panorama/",
