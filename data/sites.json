@@ -183,5 +183,68 @@
 			"div.card-section h4.card-title a",
 			"div.card-section div.date a"
 		]
+	},
+	{
+		"id": 1017,
+		"name": "The Daily Star",
+		"section": "Culture",
+		"type": "StaticWeb",
+		"site": "https://www.thedailystar.net",
+		"url": "https://www.thedailystar.net/culture",
+		"selector": [".title a", ".title a"]
+	},
+	{
+		"id": 1018,
+		"name": "The Daily Star",
+		"section": "Life Living",
+		"type": "StaticWeb",
+		"site": "https://www.thedailystar.net",
+		"url": "https://www.thedailystar.net/life-living",
+		"selector": ["h3.title a", "h3.title a"]
+	},
+	{
+		"id": 1019,
+		"name": "The Daily Star",
+		"section": "Youth",
+		"type": "StaticWeb",
+		"site": "https://www.thedailystar.net",
+		"url": "https://www.thedailystar.net/youth",
+		"selector": ["h3.title a", "h3.title a"]
+	},
+	{
+		"id": 1020,
+		"name": "The Daily Star",
+		"section": "Literature",
+		"type": "StaticWeb",
+		"site": "https://www.thedailystar.net",
+		"url": "https://www.thedailystar.net/star-literature",
+		"selector": ["h3.title a", "h3.title a"]
+	},
+	{
+		"id": 1021,
+		"name": "The Daily Star",
+		"section": "Opinion: Focus",
+		"type": "StaticWeb",
+		"site": "https://www.thedailystar.net",
+		"url": "https://www.thedailystar.net/opinion/focus",
+		"selector": ["h3.title a", "h3.title a"]
+	},
+	{
+		"id": 1022,
+		"name": "The Daily Star",
+		"section": "Books",
+		"type": "StaticWeb",
+		"site": "https://www.thedailystar.net",
+		"url": "https://www.thedailystar.net/daily-star-books",
+		"selector": ["h3.title a", "h3.title a"]
+	},
+	{
+		"id": 1023,
+		"name": "The Daily Star",
+		"section": "Weekend Read",
+		"type": "StaticWeb",
+		"site": "https://www.thedailystar.net",
+		"url": "https://www.thedailystar.net/weekend-read",
+		"selector": ["h3.title a", "h3.title a"]
 	}
 ]
