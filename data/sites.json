@@ -314,5 +314,23 @@
 		"site": "www.prothomalo.com",
 		"url": "https://www.prothomalo.com/api/v1/collections/onnoalo/?limit=1&fields=headline%2Csubheadline%2Curl",
 		"selector": [["items", 0, "story"], "headline", "subheadline", "url"]
+	},
+	{
+		"id": 1031,
+		"name": "Sushanta Paul",
+		"section": "and His Works",
+		"type": "StaticWeb",
+		"site": "https://sushantapaul.com",
+		"url": "https://sushantapaul.com/",
+		"selector": ["h1.elementor-post__title a", "h1.elementor-post__title a"]
+	},
+	{
+		"id": 1032,
+		"name": "Muradul Islam",
+		"section": "",
+		"type": "StaticWeb",
+		"site": "https://muradulislam.me/",
+		"url": "https://muradulislam.me/",
+		"selector": ["h2.entry-title a", "h2.entry-title a", "span.entry-category"]
 	}
 ]

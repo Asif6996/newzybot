@@ -6,6 +6,7 @@ import {
 	myList,
 	site_list,
 	sendFile,
+	subscribers
 } from "./services.js";
 
 import { bot } from "../index.js";
@@ -102,6 +103,8 @@ async function processCommand(msg) {
 				await sendFile("./data/sites.json");
 				await sendFile("./data/sent_links.json");
 				await sendFile("./data/subscribers.json");
+			} else if (text.startsWith("/send_msg")) {
+				await send_msg(text.replace("/send_msg",""))
 			} else {
 				await bot.sendMessage(
 					chatId,
@@ -118,5 +121,16 @@ async function handleMultipleIds(text, action, chatId) {
 	const ids = text.split("_")[1].split(",").map(Number);
 	for (const id of ids) {
 		await action(chatId, id);
+	}
+}
+
+export async function send_msg(msg) {
+	try {
+		const userArray = await subscribers.getElements();
+		await Promise.all(
+			userArray.map((user) => bot.sendMessage(user.userid, msg))
+		);
+	} catch (error) {
+		console.error("Error sending messages:", error.message);
 	}
 }

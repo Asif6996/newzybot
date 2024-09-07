@@ -8,7 +8,7 @@ const site_list = new JSONFileHandler("./data/sites.json");
 const sent_links = new JSONFileHandler("./data/sent_links.json");
 const subscribers = new JSONFileHandler("./data/subscribers.json");
 
-export { site_list };
+export { site_list,subscribers };
 
 async function getLinkByCheerio(url, selectors) {
 	try {
