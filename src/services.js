@@ -8,7 +8,7 @@ const site_list = new JSONFileHandler("./data/sites.json");
 const sent_links = new JSONFileHandler("./data/sent_links.json");
 const subscribers = new JSONFileHandler("./data/subscribers.json");
 
-export { site_list,subscribers };
+export { site_list, subscribers };
 
 async function getLinkByCheerio(url, selectors) {
 	try {
@@ -118,14 +118,25 @@ export async function checkForUpdates(elem, chatId) {
 	}
 }
 
+function sleep(ms) {
+	return new Promise((resolve) => setTimeout(resolve, ms));
+}
+
+// Usage with async/await
+
+
+
 export async function checkForUpdatesAll() {
 	try {
 		const sites = await site_list.getElements();
-		await Promise.all(sites.map((elem) => checkForUpdates(elem)));
+		for (const elem of sites) {
+			await checkForUpdates(elem);
+		}
 	} catch (error) {
 		console.error("Error getting sites:", error.message);
 	}
 }
+
 
 export async function sendToAllSubscribers(link, site_id) {
 	try {
