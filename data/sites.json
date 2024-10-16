@@ -1,336 +1,345 @@
 [
-	{
-		"id": 1000,
-		"name": "The Daily Star",
-		"section": "Bangladesh",
-		"type": "StaticWeb",
-		"site": "https://www.thedailystar.net",
-		"url": "https://www.thedailystar.net/news/bangladesh",
-		"selector": ["h3.title a", "h3.title a"]
-	},
-	{
-		"id": 1001,
-		"name": "The Daily Star",
-		"section": "World",
-		"type": "StaticWeb",
-		"site": "https://www.thedailystar.net",
-		"url": "https://www.thedailystar.net/news/world",
-		"selector": ["h3.title a", "h3.title a"]
-	},
-	{
-		"id": 1002,
-		"name": "The Daily Star",
-		"section": "Investigative Stories",
-		"type": "StaticWeb",
-		"site": "https://www.thedailystar.net",
-		"url": "https://www.thedailystar.net/news/investigative-stories",
-		"selector": ["h3.title a", "h3.title a"]
-	},
-	{
-		"id": 1003,
-		"name": "The Daily Star",
-		"section": "Asia",
-		"type": "StaticWeb",
-		"site": "https://www.thedailystar.net",
-		"url": "https://www.thedailystar.net/news/asia",
-		"selector": ["h3.title a", "h3.title a"]
-	},
-	{
-		"id": 1004,
-		"name": "Netra News",
-		"section": "Bangladesh",
-		"type": "StaticWeb",
-		"site": "https://netra.news",
-		"url": "https://netra.news/",
-		"selector": [
-			".post-card-content-link",
-			".post-card-title",
-			".post-card-primary-tag"
-		]
-	},
-	{
-		"id": 1005,
-		"name": "CGS Bangladesh",
-		"section": "First Published",
-		"type": "StaticWeb",
-		"site": "https://cgs-bd.com",
-		"url": "https://cgs-bd.com/articles/1875/First-Published",
-		"selector": ["div.blog-image a", "div.blog-text a"]
-	},
-	{
-		"id": 1006,
-		"name": "CGS Bangladesh",
-		"section": "Republished",
-		"type": "StaticWeb",
-		"site": "https://cgs-bd.com",
-		"url": "https://cgs-bd.com/articles/13/Republished",
-		"selector": ["div.blog-image a", "div.blog-text a"]
-	},
-	{
-		"id": 1007,
-		"name": "The Swaddle",
-		"section": "Power",
-		"type": "StaticWeb",
-		"site": "https://www.theswaddle.com",
-		"url": "https://www.theswaddle.com/category/power",
-		"selector": [
-			".article-tile a",
-			".article-tile h3",
-			".article-tile .truncate"
-		]
-	},
-	{
-		"id": 1008,
-		"name": "The Swaddle",
-		"section": "Bodies",
-		"type": "StaticWeb",
-		"site": "https://www.theswaddle.com",
-		"url": "https://www.theswaddle.com/category/bodies",
-		"selector": [
-			".article-tile a",
-			".article-tile h3",
-			".article-tile .truncate"
-		]
-	},
-	{
-		"id": 1009,
-		"name": "The Swaddle",
-		"section": "Future",
-		"type": "StaticWeb",
-		"site": "https://www.theswaddle.com",
-		"url": "https://www.theswaddle.com/category/future",
-		"selector": [
-			".article-tile a",
-			".article-tile h3",
-			".article-tile .truncate"
-		]
-	},
-	{
-		"id": 1010,
-		"name": "The Swaddle",
-		"section": "Society",
-		"type": "StaticWeb",
-		"site": "https://www.theswaddle.com",
-		"url": "https://www.theswaddle.com/category/society",
-		"selector": [
-			".article-tile a",
-			".article-tile h3",
-			".article-tile .truncate"
-		]
-	},
-	{
-		"id": 1011,
-		"name": "The Swaddle",
-		"section": "Podcast Series",
-		"type": "StaticWeb",
-		"site": "https://www.theswaddle.com",
-		"url": "https://www.theswaddle.com/podcast-series",
-		"selector": ["a.whitespace-normal", "a.whitespace-normal h2"]
-	},
-	{
-		"id": 1012,
-		"name": "The Swaddle",
-		"section": "Perspective",
-		"type": "StaticWeb",
-		"site": "https://www.theswaddle.com",
-		"url": "https://www.theswaddle.com/in-perspective",
-		"selector": [
-			"div.slider div.slide a",
-			"div.slider div.slide h1",
-			"div.slider span.truncate span"
-		]
-	},
-	{
-		"id": 1013,
-		"name": "The Daily Star",
-		"section": "Satire",
-		"type": "StaticWeb",
-		"site": "https://www.thedailystar.net",
-		"url": "https://www.thedailystar.net/satireday",
-		"selector": ["h3.title a", "h3.title a"]
-	},
-	{
-		"id": 1014,
-		"name": "Prothom Alo",
-		"section": "Opinion",
-		"type": "api",
-		"site": "www.prothomalo.com",
-		"url": "https://www.prothomalo.com/api/v1/collections/opinion-all/?limit=1&fields=headline%2Csubheadline%2Curl",
-		"selector": [["items", 0, "story"], "headline", "subheadline", "url"]
-	},
-	{
-		"id": 1015,
-		"name": "eআরকি",
-		"section": "",
-		"type": "StaticWeb",
-		"site": "https://www.earki.co/",
-		"url": "https://www.earki.co/",
-		"selector": [
-			"div.group_criteria_latest h2.title_holder a",
-			"div.group_criteria_latest h2.title_holder span.title",
-			"div.group_criteria_latest a.page_ribbon"
-		]
-	},
-	{
-		"id": 1016,
-		"name": "Sachalayatan",
-		"section": "",
-		"type": "StaticWeb",
-		"site": "https://www.sachalayatan.com/",
-		"url": "https://www.sachalayatan.com/",
-		"selector": ["div#node-preview a", "div#node-preview a"]
-	},
-	{
-		"id": 1017,
-		"name": "The Daily Star",
-		"section": "Culture",
-		"type": "StaticWeb",
-		"site": "https://www.thedailystar.net",
-		"url": "https://www.thedailystar.net/culture",
-		"selector": ["h2.title a", "h2.title a"]
-	},
-	{
-		"id": 1018,
-		"name": "The Daily Star",
-		"section": "Life Living",
-		"type": "StaticWeb",
-		"site": "https://www.thedailystar.net",
-		"url": "https://www.thedailystar.net/life-living",
-		"selector": ["h3.title a", "h3.title a"]
-	},
-	{
-		"id": 1019,
-		"name": "The Daily Star",
-		"section": "Youth",
-		"type": "StaticWeb",
-		"site": "https://www.thedailystar.net",
-		"url": "https://www.thedailystar.net/youth",
-		"selector": ["h3.title a", "h3.title a"]
-	},
-	{
-		"id": 1020,
-		"name": "The Daily Star",
-		"section": "Literature",
-		"type": "StaticWeb",
-		"site": "https://www.thedailystar.net",
-		"url": "https://www.thedailystar.net/star-literature",
-		"selector": ["h3.title a", "h3.title a"]
-	},
-	{
-		"id": 1021,
-		"name": "The Daily Star",
-		"section": "Opinion: Focus",
-		"type": "StaticWeb",
-		"site": "https://www.thedailystar.net",
-		"url": "https://www.thedailystar.net/opinion/focus",
-		"selector": ["h3.title a", "h3.title a"]
-	},
-	{
-		"id": 1022,
-		"name": "The Daily Star",
-		"section": "Books",
-		"type": "StaticWeb",
-		"site": "https://www.thedailystar.net",
-		"url": "https://www.thedailystar.net/daily-star-books",
-		"selector": ["h3.title a", "h3.title a"]
-	},
-	{
-		"id": 1023,
-		"name": "The Daily Star",
-		"section": "Weekend Read",
-		"type": "StaticWeb",
-		"site": "https://www.thedailystar.net",
-		"url": "https://www.thedailystar.net/weekend-read",
-		"selector": ["h3.title a", "h3.title a"]
-	},
-	{
-		"id": 1024,
-		"name": "The Business Standard",
-		"section": "Thoughts",
-		"type": "StaticWeb",
-		"site": "https://www.tbsnews.net/",
-		"url": "https://www.tbsnews.net/thoughts/",
-		"selector": ["h2.card-title a", "h2.card-title a"]
-	},
-	{
-		"id": 1025,
-		"name": "The Business Standard",
-		"section": "Panorama",
-		"type": "StaticWeb",
-		"site": "https://www.tbsnews.net/",
-		"url": "https://www.tbsnews.net/features/panorama/",
-		"selector": ["h2.card-title a", "h2.card-title a"]
-	},
-	{
-		"id": 1026,
-		"name": "The Business Standard Bangla",
-		"section": "ইজেল",
-		"type": "StaticWeb",
-		"site": "https://www.tbsnews.net/",
-		"url": "https://www.tbsnews.net/bangla/%E0%A6%87%E0%A6%9C%E0%A7%87%E0%A6%B2",
-		"selector": ["h2.section-title a", "h2.section-title a"]
-	},
-	{
-		"id": 1027,
-		"name": "Kishor Alo",
-		"section": "",
-		"type": "StaticWeb",
-		"site": "https://www.kishoralo.com/",
-		"url": "https://www.kishoralo.com/",
-		"selector": ["a.title-link", "a.title-link"]
-	},
-	{
-		"id": 1028,
-		"name": "Bigganchinta",
-		"section": "",
-		"type": "StaticWeb",
-		"site": "https://www.bigganchinta.com/",
-		"url": "https://www.bigganchinta.com/",
-		"selector": ["a.title-link", "a.title-link"]
-	},
-	{
-		"id": 1029,
-		"name": "Bondhushava",
-		"section": "",
-		"type": "StaticWeb",
-		"site": "https://www.bondhushava.com/",
-		"url": "https://www.bondhushava.com/",
-		"selector": ["a.title-link", "a.title-link"]
-	},
-	{
-		"id": 1029,
-		"name": "Nagorik Prothomalo",
-		"section": "",
-		"type": "StaticWeb",
-		"site": "https://nagorik.prothomalo.com/",
-		"url": "https://nagorik.prothomalo.com/",
-		"selector": ["a.title-link", "a.title-link"]
-	},
-	{
-		"id": 1030,
-		"name": "Prothom Alo",
-		"section": "Onno Alo",
-		"type": "api",
-		"site": "www.prothomalo.com",
-		"url": "https://www.prothomalo.com/api/v1/collections/onnoalo/?limit=1&fields=headline%2Csubheadline%2Curl",
-		"selector": [["items", 0, "story"], "headline", "subheadline", "url"]
-	},
-	{
-		"id": 1031,
-		"name": "Sushanta Paul",
-		"section": "and His Works",
-		"type": "StaticWeb",
-		"site": "https://sushantapaul.com",
-		"url": "https://sushantapaul.com/",
-		"selector": ["h1.elementor-post__title a", "h1.elementor-post__title a"]
-	},
-	{
-		"id": 1032,
-		"name": "Muradul Islam",
-		"section": "",
-		"type": "StaticWeb",
-		"site": "https://muradulislam.me/",
-		"url": "https://muradulislam.me/",
-		"selector": ["h2.entry-title a", "h2.entry-title a", "span.entry-category"]
-	}
+  {
+    "id": 1000,
+    "name": "The Daily Star",
+    "section": "Bangladesh",
+    "type": "StaticWeb",
+    "site": "https://www.thedailystar.net",
+    "url": "https://www.thedailystar.net/news/bangladesh",
+    "selector": ["h3.title a", "h3.title a"]
+  },
+  {
+    "id": 1001,
+    "name": "The Daily Star",
+    "section": "World",
+    "type": "StaticWeb",
+    "site": "https://www.thedailystar.net",
+    "url": "https://www.thedailystar.net/news/world",
+    "selector": ["h3.title a", "h3.title a"]
+  },
+  {
+    "id": 1002,
+    "name": "The Daily Star",
+    "section": "Investigative Stories",
+    "type": "StaticWeb",
+    "site": "https://www.thedailystar.net",
+    "url": "https://www.thedailystar.net/news/investigative-stories",
+    "selector": ["h3.title a", "h3.title a"]
+  },
+  {
+    "id": 1003,
+    "name": "The Daily Star",
+    "section": "Asia",
+    "type": "StaticWeb",
+    "site": "https://www.thedailystar.net",
+    "url": "https://www.thedailystar.net/news/asia",
+    "selector": ["h3.title a", "h3.title a"]
+  },
+  {
+    "id": 1004,
+    "name": "Netra News",
+    "section": "Bangladesh",
+    "type": "StaticWeb",
+    "site": "https://netra.news",
+    "url": "https://netra.news/",
+    "selector": [
+      ".post-card-content-link",
+      ".post-card-title",
+      ".post-card-primary-tag"
+    ]
+  },
+  {
+    "id": 1005,
+    "name": "CGS Bangladesh",
+    "section": "First Published",
+    "type": "StaticWeb",
+    "site": "https://cgs-bd.com",
+    "url": "https://cgs-bd.com/articles/1875/First-Published",
+    "selector": ["div.blog-image a", "div.blog-text a"]
+  },
+  {
+    "id": 1006,
+    "name": "CGS Bangladesh",
+    "section": "Republished",
+    "type": "StaticWeb",
+    "site": "https://cgs-bd.com",
+    "url": "https://cgs-bd.com/articles/13/Republished",
+    "selector": ["div.blog-image a", "div.blog-text a"]
+  },
+  {
+    "id": 1007,
+    "name": "The Swaddle",
+    "section": "Power",
+    "type": "StaticWeb",
+    "site": "https://www.theswaddle.com",
+    "url": "https://www.theswaddle.com/category/power",
+    "selector": [
+      ".article-tile a",
+      ".article-tile h3",
+      ".article-tile .truncate"
+    ]
+  },
+  {
+    "id": 1008,
+    "name": "The Swaddle",
+    "section": "Bodies",
+    "type": "StaticWeb",
+    "site": "https://www.theswaddle.com",
+    "url": "https://www.theswaddle.com/category/bodies",
+    "selector": [
+      ".article-tile a",
+      ".article-tile h3",
+      ".article-tile .truncate"
+    ]
+  },
+  {
+    "id": 1009,
+    "name": "The Swaddle",
+    "section": "Future",
+    "type": "StaticWeb",
+    "site": "https://www.theswaddle.com",
+    "url": "https://www.theswaddle.com/category/future",
+    "selector": [
+      ".article-tile a",
+      ".article-tile h3",
+      ".article-tile .truncate"
+    ]
+  },
+  {
+    "id": 1010,
+    "name": "The Swaddle",
+    "section": "Society",
+    "type": "StaticWeb",
+    "site": "https://www.theswaddle.com",
+    "url": "https://www.theswaddle.com/category/society",
+    "selector": [
+      ".article-tile a",
+      ".article-tile h3",
+      ".article-tile .truncate"
+    ]
+  },
+  {
+    "id": 1011,
+    "name": "The Swaddle",
+    "section": "Podcast Series",
+    "type": "StaticWeb",
+    "site": "https://www.theswaddle.com",
+    "url": "https://www.theswaddle.com/podcast-series",
+    "selector": ["a.whitespace-normal", "a.whitespace-normal h2"]
+  },
+  {
+    "id": 1012,
+    "name": "The Swaddle",
+    "section": "Perspective",
+    "type": "StaticWeb",
+    "site": "https://www.theswaddle.com",
+    "url": "https://www.theswaddle.com/in-perspective",
+    "selector": [
+      "div.slider div.slide a",
+      "div.slider div.slide h1",
+      "div.slider span.truncate span"
+    ]
+  },
+  {
+    "id": 1013,
+    "name": "The Daily Star",
+    "section": "Satire",
+    "type": "StaticWeb",
+    "site": "https://www.thedailystar.net",
+    "url": "https://www.thedailystar.net/satireday",
+    "selector": ["h3.title a", "h3.title a"]
+  },
+  {
+    "id": 1014,
+    "name": "Prothom Alo",
+    "section": "Opinion",
+    "type": "api",
+    "site": "www.prothomalo.com",
+    "url": "https://www.prothomalo.com/api/v1/collections/opinion-all/?limit=1&fields=headline%2Csubheadline%2Curl",
+    "selector": [["items", 0, "story"], "headline", "subheadline", "url"]
+  },
+  {
+    "id": 1015,
+    "name": "eআরকি",
+    "section": "",
+    "type": "StaticWeb",
+    "site": "https://www.earki.co/",
+    "url": "https://www.earki.co/",
+    "selector": [
+      "div.group_criteria_latest h2.title_holder a",
+      "div.group_criteria_latest h2.title_holder span.title",
+      "div.group_criteria_latest a.page_ribbon"
+    ]
+  },
+  {
+    "id": 1016,
+    "name": "Sachalayatan",
+    "section": "",
+    "type": "StaticWeb",
+    "site": "https://www.sachalayatan.com/",
+    "url": "https://www.sachalayatan.com/",
+    "selector": ["div#node-preview a", "div#node-preview a"]
+  },
+  {
+    "id": 1017,
+    "name": "The Daily Star",
+    "section": "Culture",
+    "type": "StaticWeb",
+    "site": "https://www.thedailystar.net",
+    "url": "https://www.thedailystar.net/culture",
+    "selector": ["h2.title a", "h2.title a"]
+  },
+  {
+    "id": 1018,
+    "name": "The Daily Star",
+    "section": "Life Living",
+    "type": "StaticWeb",
+    "site": "https://www.thedailystar.net",
+    "url": "https://www.thedailystar.net/life-living",
+    "selector": ["h3.title a", "h3.title a"]
+  },
+  {
+    "id": 1019,
+    "name": "The Daily Star",
+    "section": "Youth",
+    "type": "StaticWeb",
+    "site": "https://www.thedailystar.net",
+    "url": "https://www.thedailystar.net/youth",
+    "selector": ["h3.title a", "h3.title a"]
+  },
+  {
+    "id": 1020,
+    "name": "The Daily Star",
+    "section": "Literature",
+    "type": "StaticWeb",
+    "site": "https://www.thedailystar.net",
+    "url": "https://www.thedailystar.net/star-literature",
+    "selector": ["h3.title a", "h3.title a"]
+  },
+  {
+    "id": 1021,
+    "name": "The Daily Star",
+    "section": "Opinion: Focus",
+    "type": "StaticWeb",
+    "site": "https://www.thedailystar.net",
+    "url": "https://www.thedailystar.net/opinion/focus",
+    "selector": ["h3.title a", "h3.title a"]
+  },
+  {
+    "id": 1022,
+    "name": "The Daily Star",
+    "section": "Books",
+    "type": "StaticWeb",
+    "site": "https://www.thedailystar.net",
+    "url": "https://www.thedailystar.net/daily-star-books",
+    "selector": ["h3.title a", "h3.title a"]
+  },
+  {
+    "id": 1023,
+    "name": "The Daily Star",
+    "section": "Weekend Read",
+    "type": "StaticWeb",
+    "site": "https://www.thedailystar.net",
+    "url": "https://www.thedailystar.net/weekend-read",
+    "selector": ["h3.title a", "h3.title a"]
+  },
+  {
+    "id": 1024,
+    "name": "The Business Standard",
+    "section": "Thoughts",
+    "type": "StaticWeb",
+    "site": "https://www.tbsnews.net/",
+    "url": "https://www.tbsnews.net/thoughts/",
+    "selector": ["h2.card-title a", "h2.card-title a"]
+  },
+  {
+    "id": 1025,
+    "name": "The Business Standard",
+    "section": "Panorama",
+    "type": "StaticWeb",
+    "site": "https://www.tbsnews.net/",
+    "url": "https://www.tbsnews.net/features/panorama/",
+    "selector": ["h2.card-title a", "h2.card-title a"]
+  },
+  {
+    "id": 1026,
+    "name": "The Business Standard Bangla",
+    "section": "ইজেল",
+    "type": "StaticWeb",
+    "site": "https://www.tbsnews.net/",
+    "url": "https://www.tbsnews.net/bangla/%E0%A6%87%E0%A6%9C%E0%A7%87%E0%A6%B2",
+    "selector": ["h2.section-title a", "h2.section-title a"]
+  },
+  {
+    "id": 1027,
+    "name": "Kishor Alo",
+    "section": "",
+    "type": "StaticWeb",
+    "site": "https://www.kishoralo.com/",
+    "url": "https://www.kishoralo.com/",
+    "selector": ["a.title-link", "a.title-link"]
+  },
+  {
+    "id": 1028,
+    "name": "Bigganchinta",
+    "section": "",
+    "type": "StaticWeb",
+    "site": "https://www.bigganchinta.com/",
+    "url": "https://www.bigganchinta.com/",
+    "selector": ["a.title-link", "a.title-link"]
+  },
+  {
+    "id": 1029,
+    "name": "Bondhushava",
+    "section": "",
+    "type": "StaticWeb",
+    "site": "https://www.bondhushava.com/",
+    "url": "https://www.bondhushava.com/",
+    "selector": ["a.title-link", "a.title-link"]
+  },
+  {
+    "id": 1029,
+    "name": "Nagorik Prothomalo",
+    "section": "",
+    "type": "StaticWeb",
+    "site": "https://nagorik.prothomalo.com/",
+    "url": "https://nagorik.prothomalo.com/",
+    "selector": ["a.title-link", "a.title-link"]
+  },
+  {
+    "id": 1030,
+    "name": "Prothom Alo",
+    "section": "Onno Alo",
+    "type": "api",
+    "site": "www.prothomalo.com",
+    "url": "https://www.prothomalo.com/api/v1/collections/onnoalo/?limit=1&fields=headline%2Csubheadline%2Curl",
+    "selector": [["items", 0, "story"], "headline", "subheadline", "url"]
+  },
+  {
+    "id": 1031,
+    "name": "Sushanta Paul",
+    "section": "and His Works",
+    "type": "StaticWeb",
+    "site": "https://sushantapaul.com",
+    "url": "https://sushantapaul.com/",
+    "selector": ["h1.elementor-post__title a", "h1.elementor-post__title a"]
+  },
+  {
+    "id": 1032,
+    "name": "Muradul Islam",
+    "section": "",
+    "type": "StaticWeb",
+    "site": "https://muradulislam.me/",
+    "url": "https://muradulislam.me/",
+    "selector": ["h2.entry-title a", "h2.entry-title a", "span.entry-category"]
+  },
+  {
+    "id": 1033,
+    "name": "Prothom Alo",
+    "section": "Lifestyle",
+    "type": "api",
+    "site": "www.prothomalo.com",
+    "url": "https://www.prothomalo.com/api/v1/collections/lifestyle-all?limit=1&fields=headline%2Csubheadline%2Curl",
+    "selector": [["items", 0, "story"], "headline", "subheadline", "url"]
+  }
 ]
